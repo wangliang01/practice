@@ -23,13 +23,16 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
+ul, ol, li{
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style-type: none;
   padding: 0;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
+  display: block;
 }
 a {
   color: #42b983;

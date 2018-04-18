@@ -6,6 +6,7 @@ Vue.use(Router)
 const shengMingShiXuanRan = () => import('../pages/vuejs/jichu/sheng-ming-shi-xuan-ran.vue')
 const tiaoJianYuXunHuan = () => import('../pages/vuejs/jichu/tiao-jian-yu-xuan-huan.vue')
 const chuLiYongHuShuRu = () => import('../pages/vuejs/jichu/chu-li-yong-hu-shu-ru.vue')
+const zhuJianHuaYingYong = () => import('../pages/vuejs/jichu/zhu-jian-hua-ying-yong.vue')
 export default new Router({
   routes: [
     {
@@ -24,6 +25,10 @@ export default new Router({
     {
       path: '/chuLiYongHuShuRu',
       component: chuLiYongHuShuRu
+    },
+    {
+      path: '/zhuJianHuaYingYong',
+      component: zhuJianHuaYingYong
     }
   ]
 })
